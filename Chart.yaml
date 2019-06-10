@@ -1,6 +1,6 @@
 name: azure-function
 description: Deployment chart for an Azure Function app
-version: 0.1.0
+version: 0.1.1
 sources:
 - https://github.com/timfpark/fabrikate-azure-function
 maintainers:
