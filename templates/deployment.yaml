@@ -27,3 +27,5 @@ spec:
         image: {{ .Values.image }}
         imagePullPolicy: Always
         name: {{ .Release.Name }}
+        resources:
+{{ toYaml .Values.resources | indent 10 }}
